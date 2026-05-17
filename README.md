@@ -50,6 +50,22 @@ Now, **$BEASTSOL is reborn on Solana via pump.fun** — the fairest launchpad in
 
 ---
 
+
+## 📄 Whitepaper
+
+The official **BeastSolCoin ($BEASTSOL) Whitepaper v1.0** is available on the website and in this repository.
+
+| Topic | Summary |
+|---|---|
+| **Launch Model** | 100% fair launch via pump.fun bonding curve — no presale, no team tokens |
+| **Bonding Curve** | Price increases deterministically until ~$69k market cap, then migrates to Raydium |
+| **LP Status** | Permanently burned after Raydium migration — no rug possible |
+| **Mint Authority** | Revoked at creation — supply is fixed at 1,000,000,000 forever |
+| **Transaction Tax** | 0% — standard SPL token, no custom fee logic |
+| **Security** | Unmodified Pump.fun SPL factory contract — battle-tested |
+
+> 📖 Read the full whitepaper at [/whitepaper](https://beastsol.xyz/whitepaper) or in [`Whitepaper.txt`](./Whitepaper.txt)
+
 ## 🛒 How to Buy
 
 ### Step 1 — 👻 Get Phantom Wallet
@@ -82,29 +98,29 @@ Total Supply: 1,000,000,000 $BEASTSOL
 
 ## 🗺️ Roadmap
 
-### 🌑 Phase 01 — AWAKENING *(Active)*
-- ✅ pump.fun launch
-- ✅ Meme Lab live
-- ✅ Community building
-- ✅ Sniper's Promise active
+### 🌑 Phase 01 — THE AWAKENING *(Completed ✅)*
+- ✅ Launch on Pump.fun with fair bonding curve
+- ✅ Migration to Raydium & permanent LP burn
+- ✅ 500+ organic holders established
+- ✅ Social media channels live (X, Telegram)
 
-### 🩸 Phase 02 — BLOODMOON
-- ⏳ Raydium migration
-- ⏳ Beast Battles Arena
-- ⏳ NFT drop
-- ⏳ CoinGecko / CMC listing
+### 🦁 Phase 02 — THE ROAR *(Current — Q2/Q3 2026)*
+- 🔄 CoinMarketCap & CoinGecko listing application
+- 🔄 Trending campaigns on DexScreener, Birdeye, GeckoTerminal
+- 🔄 Community contests (memes, raids, art)
+- 🔄 Community Treasury wallet established
 
-### 🔥 Phase 03 — RAMPAGE
-- ⏳ DEX exchange listings
-- ⏳ ETH bridge live
-- ⏳ Merch store
-- ⏳ Pack expansion
+### ⚔️ Phase 03 — SHARPENING THE CLAWS *(Q4 2026)*
+- 🎯 BeastSol NFT collection with holder-exclusive perks
+- 🎯 Staking dApp: stake $BEASTSOL → earn NFTs, partner tokens, SOL
+- 🎯 First CEX listing application
+- 🎯 Merch store + Solana project collabs
 
-### 🌑 Phase 04 — ECLIPSE
-- ⏳ Beast Chain meme launch
-- ⏳ Furieverse integration
-- ⏳ Cross-chain dominance
-- ⏳ Global pack rally
+### 👑 Phase 04 — KING OF THE JUNGLE *(2027+)*
+- 🏆 Play-to-earn RPG — $BEASTSOL native currency
+- 🏆 On-chain DAO governance
+- 🏆 Cross-chain bridge (Ethereum, Base)
+- 🏆 Tier-1 CEX listing & blue-chip meme status
 
 ---
 
@@ -163,6 +179,8 @@ Open [http://localhost:3000](http://localhost:3000)
 beastsol-website/
 ├── app/                    # Next.js App Router
 │   ├── api/               # API routes (token stats, claim)
+│   ├── whitepaper/        # 📄 Whitepaper page
+│   │   └── page.tsx
 │   ├── layout.tsx         # Root layout
 │   └── page.tsx           # Home page
 ├── components/
@@ -177,7 +195,9 @@ beastsol-website/
 │           ├── utility-section.tsx
 │           ├── faq-section.tsx
 │           └── snipers-promise-section.tsx
-└── public/                # Static assets
+├── public/
+│   └── whitepaper.txt     # 📄 Downloadable whitepaper
+└── Whitepaper.txt         # Source whitepaper document
 ```
 
 ---

@@ -214,6 +214,12 @@ export function BeastLandingPage() {
                 >
                   Join the Pack
                 </a>
+                <a
+                  href="/whitepaper"
+                  className="rounded-full border border-zinc-600 px-5 py-2 text-sm text-zinc-400 transition hover:border-beast-toxic hover:text-beast-toxic"
+                >
+                  📄 Whitepaper
+                </a>
               </div>
             </div>
 
@@ -262,6 +268,12 @@ export function BeastLandingPage() {
                 className="rounded-full border border-beast-ember/40 px-4 py-2 text-sm text-zinc-100 hover:border-beast-ember hover:text-beast-ember"
               >
                 Telegram / Join the Pack
+              </a>
+              <a
+                href="/whitepaper"
+                className="rounded-full border border-zinc-700 px-4 py-2 text-sm text-zinc-400 hover:border-beast-toxic hover:text-beast-toxic"
+              >
+                Whitepaper
               </a>
             </div>
             <div className="flex flex-wrap items-center gap-3 rounded-xl border border-zinc-800 bg-zinc-900/75 p-4">
