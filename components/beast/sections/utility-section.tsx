@@ -5,20 +5,11 @@ import useSWR from "swr";
 
 const fetcher = (url: string) => fetch(url).then((r) => r.json());
 
-const MOCK_ADDRESSES = [
-  "7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU",
-  "4vJ9JU1bJJE96FWSJKvHsmmFADCg4gpZQff4P3bkLKi",
-  "3Fn1ydEHRwK28mkCKXJVPqCbfW4RNtFzXXEJXMnq3Hx",
-];
-
 interface TokenStats {
   burned: string;
 }
 
 export function UtilitySection() {
-  // Beast Battles
-  const [winner, setWinner] = useState<string | null>(null);
-
   // Meme Lab
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const [topText, setTopText] = useState("WHEN LAMBO");
@@ -75,11 +66,6 @@ export function UtilitySection() {
     }
   }, [tokenStats?.burned]);
 
-  const pickWinner = () => {
-    const idx = Math.floor(Math.random() * MOCK_ADDRESSES.length);
-    setWinner(MOCK_ADDRESSES[idx]);
-  };
-
   const downloadMeme = () => {
     const canvas = canvasRef.current;
     if (!canvas) return;
@@ -113,40 +99,21 @@ export function UtilitySection() {
 
         <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
           {/* Card 1: Beast Battles */}
-          <div className="rounded-3xl border border-beast-rage/40 bg-[#0d0030]/90 p-6 shadow-[0_0_25px_rgba(125,2,160,0.3)] backdrop-blur">
+          <div className="rounded-3xl border border-beast-rage/40 bg-[#0d0030]/90 p-6 shadow-[0_0_25px_rgba(125,2,160,0.3)] backdrop-blur flex flex-col">
             <div className="text-3xl mb-2">⚔️</div>
-            <h3 className="font-heading text-xl text-beast-rage tracking-wide mb-4">
+            <h3 className="font-heading text-xl text-beast-rage tracking-wide mb-1">
               BEAST BATTLES ARENA
             </h3>
-            <button
-              type="button"
-              onClick={() => alert("Connect wallet via provider")}
-              className="w-full rounded-xl border border-beast-toxic/60 bg-beast-toxic/10 py-2 text-sm font-bold text-beast-toxic hover:bg-beast-toxic/20 transition mb-3"
-            >
-              🔗 Connect Wallet
-            </button>
-            <button
-              type="button"
-              onClick={pickWinner}
-              className="w-full rounded-xl bg-beast-rage py-2 text-sm font-bold text-white hover:brightness-90 transition mb-4"
-            >
-              ⚔️ FIGHT
-            </button>
-            {winner && (
-              <div className="rounded-xl border border-beast-ember/40 bg-beast-ember/10 p-3 text-xs text-beast-ember font-mono mb-3">
-                🏆 Winner: {winner.slice(0, 6)}...{winner.slice(-4)}
-              </div>
-            )}
-            <div className="space-y-1">
-              <p className="text-xs text-zinc-500 uppercase tracking-wider mb-2">Recent Winners</p>
-              {MOCK_ADDRESSES.map((addr) => (
-                <div key={addr} className="flex justify-between text-xs text-zinc-400">
-                  <span className="font-mono">
-                    {addr.slice(0, 6)}...{addr.slice(-4)}
-                  </span>
-                  <span className="text-beast-toxic">won 0.5 SOL</span>
-                </div>
-              ))}
+            <span className="mb-4 inline-block self-start rounded-full border border-beast-rage/60 bg-beast-rage/20 px-3 py-0.5 text-xs font-bold text-beast-rage tracking-widest">
+              COMING SOON
+            </span>
+            <p className="text-sm text-zinc-400 leading-relaxed mb-4">
+              Community holders will compete in on-chain Beast Battles. Leaderboard rewards, holder
+              rankings, and exclusive beast-tier perks — all powered by $BEASTSOL.
+            </p>
+            <div className="mt-auto rounded-xl border border-beast-rage/30 bg-beast-rage/10 p-4 text-xs text-zinc-500">
+              <p className="font-bold text-beast-rage mb-1">🔒 Unlocks after launch</p>
+              <p>Smart contract in development. Battle mechanics will be announced in Phase 2 of the roadmap.</p>
             </div>
           </div>
 
@@ -207,14 +174,7 @@ export function UtilitySection() {
             </div>
             <div className="space-y-2">
               <p className="text-xs text-zinc-500 uppercase tracking-wider">Top Burners</p>
-              {MOCK_ADDRESSES.map((addr, i) => (
-                <div key={addr} className="flex justify-between text-xs">
-                  <span className="font-mono text-zinc-400">
-                    {addr.slice(0, 6)}...{addr.slice(-4)}
-                  </span>
-                  <span className="text-beast-rage">{(10000000 - i * 2500000).toLocaleString()} 🔥</span>
-                </div>
-              ))}
+              <p className="text-xs text-zinc-600 italic">Data will populate after launch</p>
             </div>
           </div>
 

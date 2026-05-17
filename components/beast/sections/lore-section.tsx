@@ -32,9 +32,9 @@ export function LoreSection() {
             <div className="relative rounded-2xl border-4 border-beast-ember bg-gradient-to-b from-beast-ember/30 to-beast-rage/20 p-6 text-center w-full max-w-xs shadow-[0_0_25px_rgba(243,2,89,0.5)]">
               <div className="text-4xl mb-2">📖</div>
               <p className="font-heading text-2xl text-beast-toxic tracking-widest">CORTEX VORTEX</p>
-              <p className="mt-1 text-zinc-300 text-sm">by Matt Furie</p>
+              <p className="mt-1 text-zinc-300 text-sm">Community-inspired universe</p>
               <div className="mt-3 inline-block rounded-full border border-beast-toxic bg-beast-toxic/20 px-3 py-1 text-xs font-bold text-beast-toxic tracking-widest">
-                FURIEVERSE OFFICIAL
+                FAN TRIBUTE
               </div>
             </div>
             <img
@@ -88,21 +88,25 @@ export function LoreSection() {
           </h3>
           <div className="space-y-4 text-zinc-300 leading-relaxed">
             <p>
-              In the depths of the Furieverse, after Pepe, Brett, and Landwolf, a new entity crawled out:{" "}
-              <strong className="text-beast-toxic">Beast, the Beast Seller.</strong> He&apos;s the cover star of
-              Matt Furie&apos;s art book,{" "}
-              <em className="text-beast-ember">Cortex Vortex</em> — a psychedelic trip filled with Gasspas,
-              Gorth, Boochie, Berry, and Bossburger.
+              Deep inside the Cortex Vortex — a psychedelic universe of wild characters — a new entity crawled
+              out:{" "}
+              <strong className="text-beast-toxic">Beast, the Beast Seller.</strong> Surrounded by Gasspas,
+              Gorth, Boochie, Berry, and Bossburger, Beast emerged as the most unhinged of them all.
             </p>
             <p>
-              The community launched <strong className="text-beast-toxic">$BEAST on Ethereum</strong>. It
-              exploded from <span className="text-beast-ember">$80k to a $3.3M market cap</span> in weeks. But
-              gas fees and jeets bled the beast dry.
+              Inspired by this lore, the community launched{" "}
+              <strong className="text-beast-toxic">$BEAST on Ethereum</strong>. It exploded from{" "}
+              <span className="text-beast-ember">$80k to a $3.3M market cap</span> in weeks. But gas fees and
+              jeets bled the beast dry.
             </p>
             <p>
               Now, on Solana, <strong className="text-beast-toxic">$BEASTSOL is reborn on pump.fun</strong> —
-              the fairest launchpad in crypto. Still the mascot of the Cortex Vortex movement, but now with
+              the fairest launchpad in crypto. A community-driven fan tribute to the Cortex Vortex spirit, with
               real utility, a loyal pack, and a chain that lets him run.
+            </p>
+            <p className="text-xs text-zinc-600 italic">
+              $BEASTSOL is an independent, community-created meme token. It is not affiliated with, endorsed
+              by, or officially connected to any artist, publisher, or intellectual property holder.
             </p>
           </div>
         </div>
@@ -138,7 +142,7 @@ export function LoreSection() {
                     animate={{ opacity: 1, y: 0 }}
                     className="mt-2 text-xs text-beast-toxic font-bold animate-pulse"
                   >
-                    The Furieverse is watching.
+                    The Beast is watching. 👁️
                   </motion.p>
                 )}
               </motion.div>

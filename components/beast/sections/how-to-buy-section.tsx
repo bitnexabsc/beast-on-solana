@@ -31,7 +31,7 @@ export function HowToBuySection() {
               step: "02",
               icon: "💸",
               title: "Fund with SOL",
-              desc: "Buy SOL on any Solana supported DEX (Coinbase, Binance, Kraken) and transfer to your Phantom/Jupiter wallet.",
+              desc: "Buy SOL on any CEX (Coinbase, Binance, Kraken) and transfer to your Phantom/Jupiter wallet.",
               btn: null,
               href: null,
               color: "border-beast-ember/40",
