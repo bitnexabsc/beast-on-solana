@@ -35,7 +35,7 @@ export function BeastLandingPage() {
   const [showLoader, setShowLoader] = useState(true);
   const [copied, setCopied] = useState(false);
   const hasPlayedRoar = useRef(false);
-  const [countdown, setCountdown] = useState(() => getCountdownParts(launchAt));
+  const [countdown, setCountdown] = useState<ReturnType<typeof getCountdownParts> | null>(null);
   const mintAddress = process.env.NEXT_PUBLIC_BEASTSOL_MINT ?? "BEASTSOL_MINT";
   const pumpFunLink = `https://pump.fun/token/${mintAddress}`;
   const chartLink = `https://birdeye.so/token/${mintAddress}?chain=solana`;
@@ -62,6 +62,7 @@ export function BeastLandingPage() {
   }, []);
 
   useEffect(() => {
+    setCountdown(getCountdownParts(launchAt));
     const intervalId = setInterval(() => {
       setCountdown(getCountdownParts(launchAt));
     }, 1000);
@@ -162,10 +163,10 @@ export function BeastLandingPage() {
 
               <div className="mt-7 grid grid-cols-2 gap-3 sm:grid-cols-4">
                 {[
-                  { label: "Days", value: countdown.days },
-                  { label: "Hours", value: countdown.hours },
-                  { label: "Minutes", value: countdown.minutes },
-                  { label: "Seconds", value: countdown.seconds },
+                  { label: "Days", value: countdown?.days ?? "--" },
+                  { label: "Hours", value: countdown?.hours ?? "--" },
+                  { label: "Minutes", value: countdown?.minutes ?? "--" },
+                  { label: "Seconds", value: countdown?.seconds ?? "--" },
                 ].map((item) => (
                   <div
                     key={item.label}
@@ -184,7 +185,7 @@ export function BeastLandingPage() {
                 ))}
               </div>
               <p className="mt-2 text-xs uppercase tracking-wider text-zinc-400">
-                {countdown.isLive
+                {countdown?.isLive
                   ? "Launched — The beast is live."
                   : "Launch: 23 May 2026"}
               </p>
@@ -274,6 +275,14 @@ export function BeastLandingPage() {
                 className="rounded-full border border-zinc-700 px-4 py-2 text-sm text-zinc-400 hover:border-beast-toxic hover:text-beast-toxic"
               >
                 Whitepaper
+              </a>
+              <a
+                href="https://github.com/bitnexabsc/beast-on-solana"
+                target="_blank"
+                rel="noreferrer"
+                className="rounded-full border border-zinc-700 px-4 py-2 text-sm text-zinc-400 hover:border-beast-toxic hover:text-beast-toxic"
+              >
+                GitHub / Open Source
               </a>
             </div>
             <div className="flex flex-wrap items-center gap-3 rounded-xl border border-zinc-800 bg-zinc-900/75 p-4">
