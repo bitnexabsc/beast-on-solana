@@ -1,0 +1,529 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Beast on Solana | $BEASTSOL — Fair Launch on Solana</title>
+  <meta name="description" content="$BEASTSOL official site. Fair launch on Solana via pump.fun. Community rewards, burn tracker, and roadmap.">
+
+  <meta property="og:title"       content="$BEASTSOL — The Apex Predator Is Back">
+  <meta property="og:description" content="Community-first memecoin. Fair launch. No team allocation. LP burned.">
+  <meta property="og:image"       content="https://beastonsolana.fun/assets/img/og-image.png">
+  <meta property="og:url"         content="https://beastonsolana.fun">
+  <meta name="twitter:card"       content="summary_large_image">
+
+  <link rel="icon" href="/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<div class="particles">
+  <div class="particle"></div><div class="particle"></div><div class="particle"></div>
+  <div class="particle"></div><div class="particle"></div><div class="particle"></div>
+  <div class="particle"></div><div class="particle"></div><div class="particle"></div>
+  <div class="particle"></div><div class="particle"></div><div class="particle"></div>
+  <div class="particle"></div><div class="particle"></div><div class="particle"></div>
+  <div class="particle"></div><div class="particle"></div><div class="particle"></div>
+  <div class="particle"></div><div class="particle"></div>
+</div>
+
+<nav class="navbar navbar-expand-lg border-bottom border-light-subtle bg-black bg-opacity-50 sticky-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold text-white" style="font-family:'Orbitron',sans-serif;" href="/">$BEASTSOL</a>
+    <button class="navbar-toggler border-light" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-1">
+        <li class="nav-item"><a class="nav-link text-light" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link text-light" href="#tokenomics">Tokenomics</a></li>
+        <li class="nav-item"><a class="nav-link text-light" href="#rewards">Rewards</a></li>
+        <li class="nav-item"><a class="nav-link text-light" href="#burns">Burn Tracker</a></li>
+        <li class="nav-item"><a class="nav-link text-light" href="#roadmap">Roadmap</a></li>
+        <li class="nav-item"><a class="nav-link text-light" href="/whitepaper/">Whitepaper</a></li>
+        <li class="nav-item ms-lg-2">
+          <a class="btn btn-pink btn-sm" href="https://pump.fun" target="_blank">Buy Now</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header class="hero py-5 py-lg-6">
+  <div class="container">
+    <div class="row align-items-center g-4 g-lg-5">
+      <div class="col-lg-6">
+        <span class="task-badge mb-3 d-inline-block">🔥 Fair Launch on Pump.fun</span>
+        <h1 class="display-4 fw-bold text-white mb-3" style="font-family:'Orbitron',sans-serif; line-height:1.15;">
+          The Apex Predator<br>
+          <span class="text-glow">Is Back.</span>
+        </h1>
+        <p class="lead mb-2" style="color:rgba(255,255,255,0.7);">
+          $BEASTSOL is a community-first memecoin on Solana. Fair launch, zero team allocation, LP burned, and full transparency.
+        </p>
+        <p class="mb-4" style="color:rgba(255,255,255,0.7); font-size:0.9rem;">
+          No team allocation · No presale · LP burned · Community owns everything
+        </p>
+        <div class="d-flex flex-wrap gap-2">
+          <a class="btn btn-pink btn-lg" href="https://pump.fun" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-lightning-charge-fill me-1"></i>Buy on pump.fun
+          </a>
+          <a class="btn btn-outline-light btn-lg" href="#rewards">
+            <i class="bi bi-gift me-1"></i>Earn Rewards
+          </a>
+          <a class="btn btn-outline-light btn-lg" href="/whitepaper/">Whitepaper</a>
+        </div>
+
+        <div class="row g-3 mt-4">
+          <div class="col-4 text-center">
+            <div class="stat-num" id="stat-holders">—</div>
+            <div style="font-size:0.75rem; color:rgba(255,255,255,0.7);">HOLDERS</div>
+          </div>
+          <div class="col-4 text-center">
+            <div class="stat-num" id="stat-mc">—</div>
+            <div style="font-size:0.75rem; color:rgba(255,255,255,0.7);">MARKET CAP</div>
+          </div>
+          <div class="col-4 text-center">
+            <div class="stat-num" id="stat-burned">—</div>
+            <div style="font-size:0.75rem; color:rgba(255,255,255,0.7);">TOKENS BURNED</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 text-center">
+        <img src="assets/img/beast-mascot.png" alt="$BEASTSOL Mascot" class="img-fluid hero-mascot" loading="eager">
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="py-3 border-top border-bottom border-light-subtle" style="background:rgba(0,0,0,0.4);">
+  <div class="container d-flex flex-wrap align-items-center justify-content-center gap-3">
+    <span class="text-muted small">Contract Address:</span>
+    <code class="text-pink small fw-bold" id="ca-text">TBA AT LAUNCH</code>
+    <button class="btn btn-sm btn-outline-light py-0 px-2" onclick="copyCA()" style="font-size:0.75rem;">
+      <i class="bi bi-copy me-1"></i>Copy
+    </button>
+    <a href="https://solscan.io/token/TBA" target="_blank" class="btn btn-sm btn-outline-light py-0 px-2" style="font-size:0.75rem;">
+      <i class="bi bi-box-arrow-up-right me-1"></i>Solscan
+    </a>
+  </div>
+</div>
+
+<main class="pb-5">
+
+<section id="about" class="container py-5">
+  <div class="card card-glass">
+    <div class="card-body p-4 p-lg-5">
+      <div class="row align-items-center g-4">
+        <div class="col-lg-8">
+          <p class="task-badge mb-3">About</p>
+          <h2 class="h2 fw-bold text-white mb-3" style="font-family:'Orbitron',sans-serif;">What is $BEASTSOL?</h2>
+          <p style="color:rgba(255,255,255,0.7); line-height:1.8;">
+            Inspired by the Beast character from Cortex Vortex, $BEASTSOL brings the community back together on Solana with low fees, fast execution, and a fair launch model. This is a pure community token — no insiders, no VCs, no presale. Every holder is equal, and every voice matters.
+          </p>
+          <p style="color:rgba(255,255,255,0.7); line-height:1.8;">
+            Launched via Pump.fun's bonding curve model — 100% fair, 100% community. Once the bonding curve reached market cap threshold, all liquidity was automatically migrated to Raydium and the LP tokens were permanently burned.
+          </p>
+        </div>
+        <div class="col-lg-4">
+          <ul class="list-unstyled" style="color:rgba(255,255,255,0.7);">
+            <li class="mb-2"><i class="bi bi-check-circle-fill text-pink me-2"></i>0% Team Allocation</li>
+            <li class="mb-2"><i class="bi bi-check-circle-fill text-pink me-2"></i>LP Permanently Burned</li>
+            <li class="mb-2"><i class="bi bi-check-circle-fill text-pink me-2"></i>Mint Authority Revoked</li>
+            <li class="mb-2"><i class="bi bi-check-circle-fill text-pink me-2"></i>Freeze Authority Revoked</li>
+            <li class="mb-2"><i class="bi bi-check-circle-fill text-pink me-2"></i>Dev Wallet Burns Every $50K</li>
+            <li class="mb-2"><i class="bi bi-check-circle-fill text-pink me-2"></i>Community Rewards Active</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="tokenomics" class="container py-4">
+  <p class="task-badge mb-3">Tokenomics</p>
+  <h2 class="h3 fw-bold text-white mb-4" style="font-family:'Orbitron',sans-serif;">Token Info</h2>
+  <div class="row g-4">
+
+    <div class="col-lg-4">
+      <div class="card card-glass h-100">
+        <div class="card-body p-4">
+          <h3 class="h5 text-white mb-3"><i class="bi bi-coin text-pink me-2"></i>Token Details</h3>
+          <ul class="list-unstyled mb-0" style="color:rgba(255,255,255,0.7);">
+            <li class="py-2 border-bottom border-light-subtle"><strong class="text-white">Name</strong><span class="float-end">Beast on Solana</span></li>
+            <li class="py-2 border-bottom border-light-subtle"><strong class="text-white">Ticker</strong><span class="float-end text-pink fw-bold">$BEASTSOL</span></li>
+            <li class="py-2 border-bottom border-light-subtle"><strong class="text-white">Chain</strong><span class="float-end">Solana (SPL)</span></li>
+            <li class="py-2 border-bottom border-light-subtle"><strong class="text-white">Total Supply</strong><span class="float-end">1,000,000,000</span></li>
+            <li class="py-2 border-bottom border-light-subtle"><strong class="text-white">Team Allocation</strong><span class="float-end text-pink fw-bold">0%</span></li>
+            <li class="py-2"><strong class="text-white">Buy/Sell Tax</strong><span class="float-end">0%</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4">
+      <div class="card card-glass h-100">
+        <div class="card-body p-4">
+          <h3 class="h5 text-white mb-3"><i class="bi bi-cart-plus text-pink me-2"></i>How to Buy</h3>
+          <ol style="color:rgba(255,255,255,0.7); padding-left:1.2rem; line-height:2;">
+            <li>Download <strong class="text-white">Phantom</strong> or <strong class="text-white">Solflare</strong> wallet.</li>
+            <li>Fund your wallet with <strong class="text-white">SOL</strong> from any exchange.</li>
+            <li>Go to <strong class="text-white">pump.fun</strong> and search <code class="text-pink">$BEASTSOL</code> or paste the CA.</li>
+            <li>Set slippage to <strong class="text-white">1–3%</strong> and confirm your swap.</li>
+            <li>Join our <strong class="text-white">Telegram</strong> and claim your community reward!</li>
+          </ol>
+          <a class="btn btn-pink w-100 mt-3" href="https://pump.fun" target="_blank">
+            <i class="bi bi-lightning-charge-fill me-1"></i>Buy on pump.fun
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4">
+      <div class="card card-glass h-100" style="border-color:rgba(255,0,128,0.5);">
+        <div class="card-body p-4">
+          <h3 class="h5 text-white mb-3"><i class="bi bi-fire text-pink me-2"></i>Dev Burn Commitment</h3>
+          <p style="color:rgba(255,255,255,0.7); font-size:0.9rem;">
+            Dev wallet holds <strong class="text-white">100,000,000 tokens</strong> (5 SOL buy at launch). Every $50K market cap milestone triggers a public burn of <strong class="text-white">2,500,000 tokens</strong> (2.5%).
+          </p>
+          <div class="mb-3">
+            <div class="d-flex justify-content-between mb-1">
+              <small style="color:rgba(255,255,255,0.7);">Burned so far</small>
+              <small class="text-pink fw-bold" id="burn-pct">0%</small>
+            </div>
+            <div class="burn-bar">
+              <div class="burn-bar-fill" id="burn-bar-fill" style="width:0%"></div>
+            </div>
+          </div>
+          <p class="mb-0" style="font-size:0.8rem; color:rgba(255,255,255,0.7);">
+            🔥 Dev wallet reaches <strong class="text-white">ZERO at $2M</strong> market cap. All burns verified on Solscan.
+          </p>
+          <a href="/burns/" class="btn btn-outline-light btn-sm w-100 mt-3">
+            View Burn Log <i class="bi bi-arrow-right ms-1"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="rewards" class="container py-5">
+  <div class="text-center mb-5">
+    <p class="task-badge mb-3">Earn Tokens</p>
+    <h2 class="h2 fw-bold text-white" style="font-family:'Orbitron',sans-serif;">Community Rewards</h2>
+    <p style="color:rgba(255,255,255,0.7); max-width:600px; margin:0 auto;">
+      Complete tasks, promote $BEASTSOL, and earn tokens directly to your wallet.
+      Rewards are FIXED regardless of token price. Transparency is maintained —
+      every distribution posted publicly with TX hash.
+    </p>
+  </div>
+
+  <div class="row g-4">
+
+    <div class="col-lg-4">
+      <div class="reward-tier h-100">
+        <div class="d-flex align-items-center gap-2 mb-3">
+          <span style="font-size:1.5rem;">✅</span>
+          <div>
+            <div class="fw-bold text-white">Verified X Profile</div>
+            <div class="task-badge mt-1">20,000 $BEASTSOL</div>
+          </div>
+        </div>
+        <p style="color:rgba(255,255,255,0.7); font-size:0.85rem; margin-bottom:1rem;">Complete ALL of the following tasks:</p>
+        <ul style="color:rgba(255,255,255,0.7); font-size:0.85rem; padding-left:1rem; line-height:2;">
+          <li>Create <strong class="text-white">10 tweets</strong> with CA + Telegram link</li>
+          <li><strong class="text-white">20 retweets</strong> from other community posts</li>
+          <li>Hit <strong class="text-white">DEX Screener 🚀 Rocket</strong> + Vote on Jupiter</li>
+          <li>Follow <strong class="text-white">official X account</strong></li>
+        </ul>
+        <div class="p-3 rounded mt-3" style="background:rgba(255,0,128,0.08); border:1px solid rgba(255,0,128,0.25);">
+          <p class="mb-1" style="color:#ff4aa8; font-size:0.8rem; font-weight:600;">🎁 BONUS: +50,000 $BEASTSOL</p>
+          <p class="mb-0" style="color:rgba(255,255,255,0.7); font-size:0.8rem;">Write article on: Binance Square + CoinMarketCap + CoinGecko + Gate.io Community</p>
+        </div>
+        <a href="#submit-task" class="btn btn-pink w-100 mt-3">Submit Task</a>
+      </div>
+    </div>
+
+    <div class="col-lg-4">
+      <div class="reward-tier h-100">
+        <div class="d-flex align-items-center gap-2 mb-3">
+          <span style="font-size:1.5rem;">👤</span>
+          <div>
+            <div class="fw-bold text-white">Non-Verified Profile</div>
+            <div class="task-badge mt-1">20,000 $BEASTSOL</div>
+          </div>
+        </div>
+        <p style="color:rgba(255,255,255,0.7); font-size:0.85rem; margin-bottom:1rem;">Complete ALL of the following tasks:</p>
+        <ul style="color:rgba(255,255,255,0.7); font-size:0.85rem; padding-left:1rem; line-height:2;">
+          <li>Hold <strong class="text-white">20,000 $BEASTSOL</strong> for minimum <strong class="text-white">30 minutes</strong> at time of claim</li>
+          <li>Create <strong class="text-white">20 tweets</strong> with CA + Telegram link</li>
+          <li><strong class="text-white">40 retweets</strong> from community posts</li>
+          <li>Hit <strong class="text-white">DEX Screener 🚀 Rocket</strong></li>
+        </ul>
+        <div class="p-3 rounded mt-3" style="background:rgba(255,0,128,0.08); border:1px solid rgba(255,0,128,0.25);">
+          <p class="mb-1" style="color:#ff4aa8; font-size:0.8rem; font-weight:600;">🎁 BONUS: +50,000 $BEASTSOL</p>
+          <p class="mb-0" style="color:rgba(255,255,255,0.7); font-size:0.8rem;">Write article on: Binance Square + CoinMarketCap + CoinGecko + Gate.io Community</p>
+        </div>
+        <a href="#submit-task" class="btn btn-pink w-100 mt-3">Submit Task</a>
+      </div>
+    </div>
+
+    <div class="col-lg-4">
+      <div class="reward-tier tier-special h-100">
+        <div class="d-flex align-items-center gap-2 mb-3">
+          <span style="font-size:1.5rem;">🎥</span>
+          <div>
+            <div class="fw-bold text-white">YouTube / Influencer</div>
+            <div class="task-badge mt-1" style="background:rgba(255,215,0,0.12); border-color:rgba(255,215,0,0.5); color:gold;">1,000,000 $BEASTSOL</div>
+          </div>
+        </div>
+        <p style="color:rgba(255,255,255,0.7); font-size:0.85rem; margin-bottom:1rem;">Special award for content creators:</p>
+        <ul style="color:rgba(255,255,255,0.7); font-size:0.85rem; padding-left:1rem; line-height:2;">
+          <li>Minimum <strong class="text-white">50,000 subscribers</strong> on YouTube or social media</li>
+          <li>Create a <strong class="text-white">minimum 5-minute video</strong> discussing $BEASTSOL</li>
+          <li>Video must include <strong class="text-white">CA on screen</strong></li>
+          <li>Must achieve <strong class="text-white">500+ views</strong> within 72 hours</li>
+          <li>Video must remain <strong class="text-white">live for 30 days</strong></li>
+        </ul>
+        <div class="p-3 rounded mt-3" style="background:rgba(255,215,0,0.06); border:1px solid rgba(255,215,0,0.3);">
+          <p class="mb-0" style="color:gold; font-size:0.8rem;">⭐ Submit video link + wallet address to Telegram admin for review. Reward sent within 24 hours of verification.</p>
+        </div>
+        <a href="https://t.me/beastonsolana" class="btn w-100 mt-3 fw-bold" style="background:gold; color:#000; border-color:gold;" target="_blank">Contact Admin on Telegram</a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="card card-glass mt-4">
+    <div class="card-body p-4">
+      <div class="row g-3 align-items-center">
+        <div class="col-lg-8">
+          <h4 class="h6 text-white mb-2"><i class="bi bi-shield-check text-pink me-2"></i>Reward Rules & Transparency</h4>
+          <p class="mb-0" style="color:rgba(255,255,255,0.7); font-size:0.875rem; line-height:1.7;">
+            Token distribution amount is <strong class="text-white">PERMANENTLY FIXED</strong> regardless of market cap or token price. All reward distributions are posted publicly on X and Telegram with the recipient wallet address and Solscan TX hash. This is a pure community token — community members are the key to its success.
+          </p>
+        </div>
+        <div class="col-lg-4 text-lg-end">
+          <a href="/rewards/" class="btn btn-outline-light"><i class="bi bi-trophy me-1"></i>View All Distributions</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="submit-task" class="container py-4">
+  <div class="card card-glass">
+    <div class="card-body p-4 p-lg-5">
+      <div class="row g-4">
+        <div class="col-lg-6">
+          <p class="task-badge mb-3">Submit for Review</p>
+          <h2 class="h3 fw-bold text-white mb-2">Claim Your Reward</h2>
+          <p style="color:rgba(255,255,255,0.7); font-size:0.9rem;">
+            Fill in all fields. Our team verifies submissions within 24–48 hours. Verified rewards are sent directly to your Solana wallet and posted publicly.
+          </p>
+          <ul style="color:rgba(255,255,255,0.7); font-size:0.85rem; line-height:2;">
+            <li>One submission per wallet address</li>
+            <li>Provide ALL tweet links (not just one)</li>
+            <li>Non-verified profile must hold 20K tokens at review time</li>
+            <li>Bonus article reward requires all 4 platforms</li>
+          </ul>
+        </div>
+        <div class="col-lg-6">
+          <form id="task-form" action="/api/submit-task.php" method="POST" onsubmit="return handleSubmit(event)">
+            <div class="mb-3">
+              <label class="form-label text-light small fw-semibold">Profile Type</label>
+              <select class="form-select bg-dark text-light border-light-subtle" name="tier" required>
+                <option value="">Select your tier...</option>
+                <option value="verified">✅ Verified X Profile</option>
+                <option value="unverified">👤 Non-Verified Profile</option>
+                <option value="youtube">🎥 YouTube / Influencer (50K+ subs)</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label class="form-label text-light small fw-semibold">Your X (Twitter) Handle</label>
+              <div class="input-group">
+                <span class="input-group-text bg-dark text-muted border-light-subtle">@</span>
+                <input type="text" class="form-control bg-dark text-light border-light-subtle" name="x_handle" placeholder="yourhandle" required>
+              </div>
+            </div>
+            <div class="mb-3">
+              <label class="form-label text-light small fw-semibold">Your Solana Wallet Address</label>
+              <input type="text" class="form-control bg-dark text-light border-light-subtle" name="wallet" placeholder="Enter your SOL wallet address" required>
+            </div>
+            <div class="mb-3">
+              <label class="form-label text-light small fw-semibold">Tweet / Post Links (paste all, one per line)</label>
+              <textarea class="form-control bg-dark text-light border-light-subtle" name="links" rows="4" placeholder="https://x.com/yourhandle/status/...&#10;https://x.com/yourhandle/status/..." required></textarea>
+            </div>
+            <div class="mb-3">
+              <label class="form-label text-light small fw-semibold">Bonus Article Links (optional — all 4 platforms for +50K)</label>
+              <textarea class="form-control bg-dark text-light border-light-subtle" name="article_links" rows="3" placeholder="Binance Square: https://...&#10;CMC: https://...&#10;CoinGecko: https://...&#10;Gate.io: https://..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-pink w-100 fw-bold"><i class="bi bi-send me-2"></i>Submit for Review</button>
+            <div id="form-msg" class="mt-3 text-center" style="display:none;"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="burns" class="container py-5">
+  <div class="text-center mb-4">
+    <p class="task-badge mb-3">Dev Commitment</p>
+    <h2 class="h2 fw-bold text-white" style="font-family:'Orbitron',sans-serif;">🔥 Burn Tracker</h2>
+    <p style="color:rgba(255,255,255,0.7);">
+      Dev wallet burns 2,500,000 tokens every $50K market cap milestone. Zero tokens remaining at $2M. All burns verified on Solscan.
+    </p>
+  </div>
+
+  <div class="card card-glass mb-4">
+    <div class="card-body p-4">
+      <div class="row g-4 text-center">
+        <div class="col-6 col-lg-3">
+          <div class="stat-num" id="burns-completed">0</div>
+          <div style="color:rgba(255,255,255,0.7); font-size:0.8rem;">BURNS COMPLETED</div>
+        </div>
+        <div class="col-6 col-lg-3">
+          <div class="stat-num" id="tokens-burned-total">0</div>
+          <div style="color:rgba(255,255,255,0.7); font-size:0.8rem;">TOKENS BURNED</div>
+        </div>
+        <div class="col-6 col-lg-3">
+          <div class="stat-num" id="dev-remaining">100M</div>
+          <div style="color:rgba(255,255,255,0.7); font-size:0.8rem;">DEV REMAINING</div>
+        </div>
+        <div class="col-6 col-lg-3">
+          <div class="stat-num" id="next-burn-mc">$50K</div>
+          <div style="color:rgba(255,255,255,0.7); font-size:0.8rem;">NEXT BURN AT</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row g-2 mb-4" id="milestone-grid"></div>
+
+  <div class="card card-glass">
+    <div class="card-body p-4">
+      <div class="d-flex justify-content-between align-items-center mb-3">
+        <h3 class="h5 text-white mb-0"><i class="bi bi-fire text-pink me-2"></i>Recent Burns</h3>
+        <a href="/burns/" class="btn btn-sm btn-outline-light">View All <i class="bi bi-arrow-right ms-1"></i></a>
+      </div>
+      <div id="recent-burns-log">
+        <p style="color:rgba(255,255,255,0.7);" class="text-center py-3">No burns yet. First burn at $50K market cap.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="roadmap" class="container py-5">
+  <div class="card card-glass">
+    <div class="card-body p-4 p-lg-5">
+      <p class="task-badge mb-3">The Journey</p>
+      <h2 class="h2 fw-bold text-white mb-4" style="font-family:'Orbitron',sans-serif;">Roadmap</h2>
+      <div class="row g-3">
+        <div class="col-md-6">
+          <div class="phase-box">
+            <span class="task-badge mb-2 d-inline-block">Phase 1</span>
+            <h4 class="h6 text-white mt-2">The Awakening</h4>
+            <ul style="color:rgba(255,255,255,0.7); font-size:0.85rem; margin:0; padding-left:1rem;">
+              <li>✅ Fair launch on Pump.fun</li>
+              <li>✅ Raydium migration + LP burn</li>
+              <li>✅ Community channels established</li>
+              <li>✅ Community reward system live</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="phase-box">
+            <span class="task-badge mb-2 d-inline-block">Phase 2</span>
+            <h4 class="h6 text-white mt-2">The Roar</h4>
+            <ul style="color:rgba(255,255,255,0.7); font-size:0.85rem; margin:0; padding-left:1rem;">
+              <li>🔄 CoinMarketCap + CoinGecko listing</li>
+              <li>🔄 DEX Screener + Birdeye trending campaigns</li>
+              <li>🔄 KOL partnerships and raids</li>
+              <li>🔄 $50K market cap → First burn 🔥</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="phase-box">
+            <span class="task-badge mb-2 d-inline-block">Phase 3</span>
+            <h4 class="h6 text-white mt-2">Sharpening the Claws</h4>
+            <ul style="color:rgba(255,255,255,0.7); font-size:0.85rem; margin:0; padding-left:1rem;">
+              <li>🎯 NFT collection launch</li>
+              <li>🎯 Staking dApp deployment</li>
+              <li>🎯 First CEX listing application</li>
+              <li>🎯 $1M market cap milestone celebration</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="phase-box">
+            <span class="task-badge mb-2 d-inline-block">Phase 4</span>
+            <h4 class="h6 text-white mt-2">King of the Jungle</h4>
+            <ul style="color:rgba(255,255,255,0.7); font-size:0.85rem; margin:0; padding-left:1rem;">
+              <li>🏆 DAO governance launch</li>
+              <li>🏆 Dev wallet = ZERO at $2M 🔥</li>
+              <li>🏆 Tier-1 CEX listing</li>
+              <li>🏆 Cross-chain expansion</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="container py-4">
+  <div class="card card-glass text-center">
+    <div class="card-body p-4 p-lg-5">
+      <h2 class="h3 fw-bold text-white mb-2" style="font-family:'Orbitron',sans-serif;">Join the Community</h2>
+      <p style="color:rgba(255,255,255,0.7);" class="mb-4">Every holder is a key member. Join us, earn rewards, and build together.</p>
+      <div class="d-flex flex-wrap justify-content-center gap-3">
+        <a href="https://t.me/beastonsolana" target="_blank" class="btn btn-outline-light btn-lg px-4"><i class="bi bi-telegram me-2"></i>Telegram</a>
+        <a href="https://x.com/BeastOnSolfx" target="_blank" class="btn btn-outline-light btn-lg px-4"><i class="bi bi-twitter-x me-2"></i>X / Twitter</a>
+        <a href="https://github.com/bitnexabsc/beast-on-solana" target="_blank" class="btn btn-outline-light btn-lg px-4"><i class="bi bi-github me-2"></i>GitHub</a>
+        <a href="https://dexscreener.com/solana/TBA" target="_blank" class="btn btn-outline-light btn-lg px-4"><i class="bi bi-graph-up me-2"></i>DEX Screener</a>
+        <a href="https://birdeye.so/token/TBA" target="_blank" class="btn btn-outline-light btn-lg px-4"><i class="bi bi-binoculars me-2"></i>Birdeye</a>
+        <a href="https://raydium.io/swap/?inputCurrency=sol&outputCurrency=TBA" target="_blank" class="btn btn-outline-light btn-lg px-4"><i class="bi bi-arrow-left-right me-2"></i>Raydium</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="border-top border-light-subtle py-4 mt-5">
+  <div class="container">
+    <div class="row g-3 align-items-center">
+      <div class="col-lg-4">
+        <span class="fw-bold text-white" style="font-family:'Orbitron',sans-serif;">$BEASTSOL</span>
+        <p class="text-muted small mt-1 mb-0">© 2026 Beast on Solana. Community-driven. No financial advice.</p>
+      </div>
+      <div class="col-lg-4 text-center">
+        <p class="text-muted small mb-0">Powered by <strong class="text-white">Solana</strong> + <strong class="text-white">Pump.fun</strong></p>
+      </div>
+      <div class="col-lg-4 text-lg-end">
+        <div class="d-flex gap-3 justify-content-lg-end flex-wrap">
+          <a class="link-light small" href="https://t.me/beastonsolana">Telegram</a>
+          <a class="link-light small" href="https://x.com/BeastOnSolfx">X</a>
+          <a class="link-light small" href="https://github.com/bitnexabsc/beast-on-solana">GitHub</a>
+          <a class="link-light small" href="/whitepaper/">Whitepaper</a>
+          <a class="link-light small" href="/burns/">Burn Log</a>
+          <a class="link-light small" href="/rewards/">Rewards</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

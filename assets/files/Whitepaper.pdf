@@ -1,0 +1,51 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792]
+   /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 650 >>
+stream
+BT
+/F1 28 Tf 0.98 0 0.5 rg 156 700 Td (Beast on Solana) Tj
+/F1 18 Tf 0.98 0 0.5 rg 200 660 Td (Whitepaper v1.0) Tj
+/F1 12 Tf 0 0 0 rg 50 600 Td (1. Introduction) Tj
+/F1 10 Tf 50 580 Td (Beast on Solana \($BEASTSOL\) is a community-driven memecoin) Tj
+50 565 Td (inspired by the Beast character from Cortex Vortex.) Tj
+50 550 Td (Built on Solana for speed and low transaction costs.) Tj
+50 520 Td (2. Token Mechanics) Tj
+/F1 10 Tf 50 500 Td (Ticker: $BEASTSOL | Chain: Solana | Supply: 1,000,000,000) Tj
+50 485 Td (Tax: 0% | Team Allocation: 0% | Fair Launch via Pump.fun) Tj
+50 455 Td (3. Dev Burn Commitment) Tj
+50 435 Td (Dev wallet: 152,081,514 tokens. Burns 7,604,076 per $100K MC.) Tj
+50 420 Td (Dev wallet reaches ZERO at $2M market cap.) Tj
+50 390 Td (4. Community Rewards) Tj
+50 370 Td (Fixed pool: 80,000,000 tokens. Verified X: 20,000+50,000 bonus.) Tj
+50 355 Td (Non-Verified: 20,000+50,000 bonus. YouTube: 1,000,000 tokens.) Tj
+50 325 Td (5. Disclaimer) Tj
+50 305 Td (Not financial advice. DYOR. Memecoins are highly volatile.) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 6
+0000000000 65535 f
+0000000009 00000 n
+0000000058 00000 n
+0000000115 00000 n
+0000000266 00000 n
+0000000968 00000 n
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+1048
+%%EOF

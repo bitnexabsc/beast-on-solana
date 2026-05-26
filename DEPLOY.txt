@@ -1,0 +1,13 @@
+CPANEL DEPLOY STEPS
+
+1) Open cPanel File Manager.
+2) Go to public_html (or your domain document root).
+3) Upload cpanel-bootstrap-site.zip.
+4) Extract it.
+5) Move all extracted files/folders directly into public_html root.
+   You should have index.html directly in public_html.
+6) Visit your domain.
+
+If homepage does not update:
+- Clear browser cache.
+- Clear cPanel cache/CDN cache (if enabled).
