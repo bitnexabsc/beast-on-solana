@@ -7,7 +7,7 @@
 [![Solana](https://img.shields.io/badge/Chain-Solana-9945FF?style=for-the-badge&logo=solana&logoColor=white)](https://solana.com)
 [![Website](https://img.shields.io/badge/Website-beastonsolana.fun-FF007A?style=for-the-badge&logo=googlechrome&logoColor=white)](https://www.beastonsolana.fun)
 [![Telegram](https://img.shields.io/badge/Telegram-beastonsolana-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/beastonsolana)
-[![Twitter](https://img.shields.io/badge/Twitter-@AlphaSnipersolX-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/AlphaSnipersolX)
+[![Twitter](https://img.shields.io/badge/Twitter-@BeastOnSolfx-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/BeastOnSolfx)
 
 </div>
 
@@ -72,7 +72,7 @@ The official **BeastSolCoin ($BEASTSOL) Whitepaper v1.0** is available on the we
 ## 🛒 How to Buy
 
 ### Step 1 — 👻 Get Phantom Wallet
-Download [Phantom](https://phantom.app) — available on Chrome, Firefox, iOS, and Android.
+Download [Phantom](https://phantom.app) or [Solflare](https://solflare.com) — available on Chrome, Firefox, iOS, and Android.
 
 ### Step 2 — 💸 Fund with SOL
 Buy SOL on any Solana supported DEX (Coinbase, Binance, Kraken) and transfer to your Phantom/Jupiter wallet.
@@ -106,24 +106,48 @@ Total Supply:   1,000,000,000 $BEASTSOL
 - ✅ Migration to Raydium & permanent LP burn
 - ✅ 500+ organic holders established
 - ✅ Social media channels live (X, Telegram)
+- ✅ Community reward system live
 
 ### 🦁 Phase 02 — THE ROAR *(Current — Q2/Q3 2026)*
 - 🔄 CoinMarketCap & CoinGecko listing application
-- 🔄 Trending campaigns on DexScreener, Birdeye, GeckoTerminal
-- 🔄 Community contests (memes, raids, art)
-- 🔄 Community Treasury wallet established
+- 🔄 DexScreener + Birdeye trending campaigns
+- 🔄 KOL partnerships and community raids
+- 🔄 $50K market cap → First dev burn 🔥
 
 ### ⚔️ Phase 03 — SHARPENING THE CLAWS *(Q4 2026)*
-- 🎯 BeastSol NFT collection with holder-exclusive perks
-- 🎯 Staking dApp: stake $BEASTSOL → earn NFTs, partner tokens, SOL
+- 🎯 NFT collection launch
+- 🎯 Staking dApp deployment
 - 🎯 First CEX listing application
-- 🎯 Merch store + Solana project collabs
+- 🎯 $1M market cap milestone celebration
 
 ### 👑 Phase 04 — KING OF THE JUNGLE *(2027+)*
-- 🏆 Play-to-earn RPG — $BEASTSOL native currency
-- 🏆 On-chain DAO governance
-- 🏆 Cross-chain bridge (Ethereum, Base)
-- 🏆 Tier-1 CEX listing & blue-chip meme status
+- 🏆 DAO governance launch
+- 🏆 Dev wallet = ZERO at $2M MC 🔥
+- 🏆 Tier-1 CEX listing
+- 🏆 Cross-chain expansion
+
+---
+
+## 🏆 Community Rewards
+
+Complete tasks, promote $BEASTSOL, and earn tokens directly to your wallet. All reward amounts are **permanently fixed** regardless of token price. Every distribution is posted publicly with TX hash.
+
+| Tier | Reward | Requirements |
+|---|---|---|
+| ✅ **Verified X Profile** | 20,000 $BEASTSOL | 10 tweets with CA + Telegram link, 20 RTs, DEX Screener rocket, follow official X |
+| 👤 **Non-Verified Profile** | 20,000 $BEASTSOL | Hold 20K tokens 30 min, 20 tweets, 40 RTs, DEX Screener rocket |
+| 🎥 **YouTube / Influencer** | 1,000,000 $BEASTSOL | 50K+ subscribers, 5-min video with CA on screen, 500+ views in 72h |
+| 🎁 **Article Bonus** | +50,000 $BEASTSOL | Write on Binance Square + CMC + CoinGecko + Gate.io (any tier) |
+
+> 📋 Submit via [beastonsolana.fun/#submit-task](https://www.beastonsolana.fun/#submit-task) · View distributions at [beastonsolana.fun/rewards/](https://www.beastonsolana.fun/rewards/)
+
+---
+
+## 🔥 Dev Burn Commitment
+
+The dev wallet holds **100,000,000 tokens** (bought at launch with 5 SOL). Every **$50K market cap milestone** triggers a public burn of **2,500,000 tokens (2.5%)**. The dev wallet reaches **ZERO at $2M market cap**. All burns are verified on Solscan.
+
+> 📊 Track live burns at [beastonsolana.fun/burns/](https://www.beastonsolana.fun/burns/)
 
 ---
 
@@ -144,7 +168,7 @@ The Sniper's Promise is our commitment to the pack:
 |---|---|
 | 🌐 Website | [beastonsolana.fun](https://www.beastonsolana.fun) |
 | ✈️ Telegram | [t.me/beastonsolana](https://t.me/beastonsolana) |
-| �� Twitter / X | [@AlphaSnipersolX](https://x.com/AlphaSnipersolX) |
+| �� Twitter / X | [@BeastOnSolfx](https://x.com/BeastOnSolfx) |
 | 🚀 Buy | [Via beastonsolana.fun](https://www.beastonsolana.fun) |
 | 📈 Chart | [beastonsolana.fun](https://www.beastonsolana.fun) |
 | 🔍 Solscan | [beastonsolana.fun](https://www.beastonsolana.fun) |
