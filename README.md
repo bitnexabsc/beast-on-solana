@@ -5,7 +5,7 @@
 ### *The Furieverse Apex Predator, Reborn on Solana*
 
 [![Solana](https://img.shields.io/badge/Chain-Solana-9945FF?style=for-the-badge&logo=solana&logoColor=white)](https://solana.com)
-[![pump.fun](https://img.shields.io/badge/Launch-pump.fun-FF007A?style=for-the-badge)](https://pump.fun)
+[![Website](https://img.shields.io/badge/Website-beastonsolana.fun-FF007A?style=for-the-badge&logo=googlechrome&logoColor=white)](https://www.beastonsolana.fun)
 [![Telegram](https://img.shields.io/badge/Telegram-beastonsolana-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/beastonsolana)
 [![Twitter](https://img.shields.io/badge/Twitter-@AlphaSnipersolX-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/AlphaSnipersolX)
 
@@ -17,7 +17,7 @@
 
 **Beast** is the cover star of Matt Furie's art book *Cortex Vortex* — a psychedelic universe filled with iconic characters like Gasspas, Gorth, Boochie, Berry, and Bossburger. After $BEAST launched on Ethereum and exploded from **$80k to a $3.3M market cap**, gas fees and market conditions bled it dry.
 
-Now, **$BEASTSOL is reborn on Solana via pump.fun** — the fairest launchpad in crypto. No VCs. No insider allocations. Just the pack.
+**$BEASTSOL is now live on Solana** — launched via pump.fun, the fairest launchpad in crypto. No VCs. No insider allocations. Just the pack.
 
 > 💀 *Ethereum bled the beast. Solana sets him free.*
 
@@ -43,10 +43,13 @@ Now, **$BEASTSOL is reborn on Solana via pump.fun** — the fairest launchpad in
 | **Chain** | Solana |
 | **Launchpad** | pump.fun |
 | **Total Supply** | 1,000,000,000 |
-| **Contract** | *(To be announced at launch)* |
-| **Launch Date** | 23 May 2026 |
+| **Contract** | *(See [beastonsolana.fun](https://www.beastonsolana.fun) for live CA)* |
+| **Launch Date** | 23 May 2026 ✅ |
+| **Price** | ~$0.000248 |
+| **Holders** | 1,247+ |
+| **Burned** | 42,069,000 |
 
-> ⚠️ **Contract address will be published here upon token deployment. Always verify on [Solscan](https://solscan.io) before interacting.**
+> ⚠️ **Always verify the contract address on [beastonsolana.fun](https://www.beastonsolana.fun) and confirm on [Solscan](https://solscan.io) before interacting.**
 
 ---
 
@@ -64,7 +67,7 @@ The official **BeastSolCoin ($BEASTSOL) Whitepaper v1.0** is available on the we
 | **Transaction Tax** | 0% — standard SPL token, no custom fee logic |
 | **Security** | Unmodified Pump.fun SPL factory contract — battle-tested |
 
-> 📖 Read the full whitepaper at [/whitepaper](https://beastsol.xyz/whitepaper) or in [`Whitepaper.txt`](./Whitepaper.txt)
+> 📖 Read the full whitepaper at [beastonsolana.fun/whitepaper](https://www.beastonsolana.fun/whitepaper) or in [`Whitepaper.txt`](./Whitepaper.txt)
 
 ## 🛒 How to Buy
 
@@ -74,8 +77,8 @@ Download [Phantom](https://phantom.app) — available on Chrome, Firefox, iOS, a
 ### Step 2 — 💸 Fund with SOL
 Buy SOL on any Solana supported DEX (Coinbase, Binance, Kraken) and transfer to your Phantom/Jupiter wallet.
 
-### Step 3 — 🚀 Buy on pump.fun
-Visit [pump.fun](https://pump.fun), search **$BEASTSOL**, and swap SOL for BEASTSOL on the bonding curve.
+### Step 3 — 🚀 Buy on pump.fun or Raydium
+Visit [beastonsolana.fun](https://www.beastonsolana.fun) for the live buy link, or go directly to [pump.fun](https://pump.fun) / [Raydium](https://raydium.io), search **$BEASTSOL**, and swap SOL for BEASTSOL.
 
 > 📈 *After the bonding curve fills 100%, trading migrates automatically to Raydium.*
 
@@ -84,11 +87,11 @@ Visit [pump.fun](https://pump.fun), search **$BEASTSOL**, and swap SOL for BEAST
 ## 📊 Tokenomics
 
 ```
-Total Supply: 1,000,000,000 $BEASTSOL
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-🟣  95.8%  Circulating (pump.fun fair launch)
-🔥   4.2%  Burned
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Total Supply:   1,000,000,000 $BEASTSOL
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🟣  95.58%  Circulating (pump.fun fair launch)
+🔥   4.21%  Burned (42,069,000 tokens)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ❌  0% Team allocation
 ❌  0% VC / insider allocation
 ✅  100% Fair launch
@@ -128,7 +131,7 @@ Total Supply: 1,000,000,000 $BEASTSOL
 
 The Sniper's Promise is our commitment to the pack:
 
-- 🛡️ **No rugs** — LP will be locked / burned at migration
+- 🛡️ **No rugs** — LP permanently burned after Raydium migration ✅
 - 🔍 **Full transparency** — All moves announced publicly
 - 🤝 **Community first** — Every major decision goes to the pack
 - 📢 **No paid shills** — Growth is organic, earned, and real
@@ -139,12 +142,12 @@ The Sniper's Promise is our commitment to the pack:
 
 | Platform | Link |
 |---|---|
-| 🌐 Website | *(Live at launch)* |
+| 🌐 Website | [beastonsolana.fun](https://www.beastonsolana.fun) |
 | ✈️ Telegram | [t.me/beastonsolana](https://t.me/beastonsolana) |
 | �� Twitter / X | [@AlphaSnipersolX](https://x.com/AlphaSnipersolX) |
-| 🚀 pump.fun | *(Link at launch)* |
-| 📈 Chart | *(Available after launch)* |
-| 🔍 Solscan | *(Contract published at launch)* |
+| 🚀 Buy | [Via beastonsolana.fun](https://www.beastonsolana.fun) |
+| 📈 Chart | [beastonsolana.fun](https://www.beastonsolana.fun) |
+| 🔍 Solscan | [beastonsolana.fun](https://www.beastonsolana.fun) |
 
 ---
 
@@ -217,5 +220,6 @@ Matt Furie's *Cortex Vortex* and the Beast character are referenced as cultural 
 *Built by the community. For the pack.*
 
 [![Telegram](https://img.shields.io/badge/Join_The_Pack-Telegram-26A5E4?style=for-the-badge&logo=telegram)](https://t.me/beastonsolana)
+[![Website](https://img.shields.io/badge/Visit-beastonsolana.fun-FF007A?style=for-the-badge&logo=googlechrome&logoColor=white)](https://www.beastonsolana.fun)
 
 </div>
